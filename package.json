@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AidanWelch/steelman#readme",
   "devDependencies": {
-    "@hcaptcha/types": "^1.0.3"
+    "@hcaptcha/types": "^1.0.3",
+    "expo": "^50.0.3"
   }
 }
