@@ -47,7 +47,7 @@ Deno.serve(async (req) => {
 		bodyObject === null ||
 		typeof bodyObject !== 'object' ||
 		!Array.isArray(bodyObject.votes) ||
-		bodyObject.length !== VOTES_PER_REQUEST
+		bodyObject.votes.length !== VOTES_PER_REQUEST
 	) {
 		return new Response('Didn\'t include a valid number of votes', {status: 400});
 	}
